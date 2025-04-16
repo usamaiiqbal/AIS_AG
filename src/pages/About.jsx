@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
+import Spinner from "../components/Spinner";
 
 const About = () => {
   const [user, setUser] = useState(null);
@@ -30,7 +31,7 @@ const About = () => {
   }, [fetchUser]);
 
   if (loading) {
-    return <div className="about">Loading user information...</div>;
+    return <Spinner />;
   }
 
   if (error) {

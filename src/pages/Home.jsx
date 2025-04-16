@@ -18,6 +18,22 @@ const Home = () => {
             systems.
           </p>
         </div>
+        <div className="feature">
+          <h3>What we want to achieve?</h3>
+          <p>
+            Our company develops and markets products designed specifically for
+            the disposal of solid waste, for power generation and supply
+            systems.
+          </p>
+        </div>
+        <div className="feature">
+          <h3>Your Role</h3>
+          <p>
+            Our company develops and markets products designed specifically for
+            the disposal of solid waste, for power generation and supply
+            systems.
+          </p>
+        </div>
       </section>
     </div>
   );
